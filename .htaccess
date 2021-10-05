@@ -1,0 +1,11 @@
+#Mengaktifkan rewrite
+RewriteEngine On 
+
+#aturan rewrite
+
+#redirect jika error
+ErrorDocument 404 /ryand-sahyuni/404.php
+#redirect folder-lama folder baru 
+
+#default file 
+DirectoryIndex login.php
